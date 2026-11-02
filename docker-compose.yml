@@ -1,0 +1,16 @@
+services:
+  orangehrm-rpa:
+    build:
+      context: .
+    environment:
+      ORANGEHRM_BASE_URL: ${ORANGEHRM_BASE_URL:-https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}
+      ORANGEHRM_USER: ${ORANGEHRM_USER:-Admin}
+      ORANGEHRM_PASSWORD: ${ORANGEHRM_PASSWORD:?Set ORANGEHRM_PASSWORD in .env or the shell}
+      SECRET_KEY: ${SECRET_KEY:-container-runtime-key}
+      BROWSER: ${BROWSER:-chrome}
+      HEADLESS: "true"
+      RUN_EMAIL: "false"
+      ROBOT_RETRIES: ${ROBOT_RETRIES:-1}
+    volumes:
+      - ./output:/app/output
+    shm_size: "2gb"

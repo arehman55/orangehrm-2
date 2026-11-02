@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Robot Framework & Execution Outputs
+output/
+src/output/
+*.log
+*.png
+
+# Virtual Environments & RCC
+.venv/
+venv/
+env/
+.robocorp/
+.env
+!.env.example
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.whl
+*.egg-info/

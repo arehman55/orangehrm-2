@@ -1,0 +1,12 @@
+{
+  "Personal_Details": {"first_name": "Muhammad", "middle_name": "Abdul", "last_name": "Rehman", "employee_id": "EMP-9042", "other_id": "PK-44210", "drivers_license": "DL-998877", "license_expiry": "2028-12-31", "nationality": "Pakistani", "marital_status": "Single", "dob": "1999-05-15"},
+  "Contact_Details": {"street_1": "142 Tech Boulevard, Johar Town", "street_2": "Street 400", "city": "Lahore", "state": "Punjab", "zip_code": "54000", "country": "Pakistan", "mobile": "+923001234567", "work_email": "test@gmail.com"},
+  "Emergency_Contacts": {"name": "AbdulRehman", "relationship": "Myself", "home_telephone": "04235551234", "mobile": "+923219876543", "work_telephone": "04235559999"},
+  "Dependents": {"name": "AbdulRehman", "relationship": "Child", "dob": "2004-08-10"},
+  "Immigration": {"document_type": "Passport", "number": "PK9988112", "issued_date": "2022-01-10", "expiry_date": "2032-01-09", "eligible_status": "Verified Citizen", "issued_by": "Pakistan", "eligible_review_date": "2026-12-01", "comments": "Primary international travel document."},
+  "Job": {"verification_note": "Job contract verified via RPA audit."},
+  "Salary": {"audit_status": "Verified"},
+  "Report_To": {"hierarchy_check": "Completed"},
+  "Qualifications": {"company": "Enterprise Automation Labs", "job_title": "Senior RPA Engineer", "from_date": "2024-01-01", "to_date": "2026-09-01", "comment": "Architected Selenium 4 automation pipelines."},
+  "Memberships": {"membership_index": 1, "subscription_paid_by": "Company", "subscription_amount": "250", "currency_index": 1, "commence_date": "2025-01-01", "renewal_date": "2027-01-01"}
+}

@@ -1,0 +1,13 @@
+tasks:
+  Run OrangeHRM Enterprise Automation:
+    shell: python -m src.cli --mode robot
+
+artifactsDir: output
+
+PATH:
+  - .
+PYTHONPATH:
+  - .
+
+ignoreFiles:
+  - .gitignore

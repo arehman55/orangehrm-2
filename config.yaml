@@ -1,0 +1,11 @@
+base_url: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+output_dir: output
+headless: true
+browser: chrome
+wait_timeout: 20
+run_email: false
+robot_retries: 1
+username: Admin
+data:
+  timesheet: timesheet.json
+  my_info: my_info.json

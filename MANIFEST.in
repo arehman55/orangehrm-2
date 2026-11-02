@@ -1,0 +1,2 @@
+include src/tasks.robot
+recursive-include src/devdata *
